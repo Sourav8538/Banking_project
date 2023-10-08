@@ -11,7 +11,6 @@
 <body>
 
 <h1>welcome to the account creation page</h1>
-	<!--<h1> hello kedar jadav</h1> -->
 	<% Customer customer=(Customer)request.getSession().getAttribute("customer"); %>
 	<h1>hello: <%= customer.getName() %></h1>
 	
